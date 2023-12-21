@@ -1,0 +1,24 @@
+@import "../fonts/mona-sans-font/fonts.css";
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 5em;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-family: "Mona-Sans Regular", sans-serif;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

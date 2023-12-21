@@ -1,0 +1,60 @@
+@import "../fonts/mona-sans-font/fonts.css";
+
+.home-maincontainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.home-leftside-main,
+.home-rightside-main {
+  flex: 1;
+}
+
+.home-leftside-main {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.title-text-container {
+  font-size: 4.5em;
+  line-height: 0;
+}
+.title-text {
+  font-family: "Mona-Sans Bold";
+
+  padding-left: 0.5em;
+  letter-spacing: 0.1em;
+}
+
+.home-paragraph-text-con {
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+}
+
+.home-paragraph-text {
+  font-family: "Mona-Sans Light";
+  text-align: justify;
+  color: black;
+  line-height: 1.5em;
+}
+.button-check-specs-con {
+  margin-left: 3em;
+  margin-top: 3em;
+  display: inline;
+}
+
+.button-check-specs-con:hover {
+  cursor: pointer;
+}
+
+.button-check-specs-text {
+  color: white;
+  align-items: center;
+  padding: 1em;
+  border-radius: 5px;
+  font-size: 0.8em;
+  letter-spacing: 0.05em;
+  font-family: "Mona-Sans SemiBold";
+  background-color: black;
+}
