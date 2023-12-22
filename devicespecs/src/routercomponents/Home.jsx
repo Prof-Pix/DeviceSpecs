@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/home.css";
+import homepic from "../images/homepic.jpg";
 
 //For Icons
 import { FaArrowCircleRight } from "react-icons/fa";
@@ -25,14 +26,16 @@ const Home = () => {
           </div>
           <div className="button-check-specs-con">
             <div className="button-check-specs-text">
-              <span style={{ alignItems: "center" }}>
-                Check Specifications!
+              <div>Check Specifications!</div>
+              <div>
                 <FaArrowCircleRight />
-              </span>
+              </div>
             </div>
           </div>
         </div>
-        <div className="home-rightside-main">Right Side</div>
+        <div className="home-rightside-main">
+          <img src={homepic} className="home-right-pic" />
+        </div>
       </div>
     </>
   );
